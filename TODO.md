@@ -1,0 +1,4 @@
+- [x] Update index.html: Move footer inside card
+- [x] Update style.css: Enhance buttons with colors and icons, adjust footer, add responsiveness
+- [x] Test the UI by running the app
+- [x] Make UI more professional: Add pulsing time effect, enhanced shadows, better hovers, styled footer

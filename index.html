@@ -1,0 +1,23 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stopwatch-card">
+        <h3 style="color: rgba(255,255,255,0.5); letter-spacing: 10px;">Stop Watch</h3>
+        <div id="time">00:00:00:000</div>
+        
+        <div class="controls">
+            <button class="btn-start" onclick="Start()">Start</button>
+            <button class="btn-stop" onclick="Stop()">Stop</button>
+            <button class="btn-reset" onclick="Reset()">Reset</button>
+        </div>
+
+        <footer>
+        &copy; 2026 Stop Watch by Muhammad Ayyan
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="stop.mjs" type="module"></script>
+</body>

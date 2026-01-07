@@ -2,7 +2,10 @@ let startTime = 0;
 let timer = null;
 
 function Start() {
-    clearInterval(timer); // Pehle wala rok dein taaki speed double na ho
+if (timer !== null) return;
+
+    
+
     startTime = moment();
     timer = setInterval(() => {
         let totalMs = moment().diff(startTime);
@@ -19,10 +22,12 @@ function Start() {
 
 function Stop() {
     clearInterval(timer);
+    timer = null;
 }
 
 function Reset() {
     clearInterval(timer);
+    timer = null;
     document.querySelector("#time").innerHTML = "00:00:00:000";
 }
 

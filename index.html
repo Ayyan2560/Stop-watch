@@ -1,10 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop-watch</title>
+
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
+    
+
+
 <body>
+    <div class="bg-void"></div>
     <div class="stopwatch-card">
-        <h3 style="color: rgba(255,255,255,0.5); letter-spacing: 10px;">Stop Watch</h3>
+        <h3 style="color: #00f2ff; letter-spacing: 15px; font-size: 0.8rem;">Stop-Watch</h3>
         <div id="time">00:00:00:000</div>
         
         <div class="controls">
@@ -12,12 +22,12 @@
             <button class="btn-stop" onclick="Stop()">Stop</button>
             <button class="btn-reset" onclick="Reset()">Reset</button>
         </div>
-
-        <footer>
-        &copy; 2026 Stop Watch by Muhammad Ayyan
-        </footer>
+        
+        <footer>MUHAMMAD AYYAN // 2026</footer>
     </div>
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="stop.mjs" type="module"></script>
 </body>
+
+</html>
